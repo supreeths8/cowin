@@ -7,7 +7,7 @@ from typing import Union, List
 from cowin_api.utils import extract_pin_code
 from cowin_api.base_api import BaseApi
 from cowin_api.constants import Constants
-from cowin_api.utils import today, filter_centers_by_age_limit, beep
+from cowin_api.utils import today, filter_centers_by_age_limit
 
 
 logger = logging.getLogger(__name__)
